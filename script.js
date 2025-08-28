@@ -154,11 +154,11 @@ var Snake = (function () {
         ctx.fillText("(space) pause", 17, 380);
       }
 
-        ctx.fillStyle = "green";
+        ctx.fillStyle = "limegreen";
         for(var i=0; i<trail.length-1; i++) {
         ctx.fillRect(trail[i].x * gridSize+1, trail[i].y * gridSize+1, gridSize-2, gridSize-2);
 
-        //console.debug(i + ' => player:' + player.x, player.y + ', trail:' + trail[i].x, trail[i].y);
+        console.debug(i + ' => player:' + player.x, player.y + ', trail:' + trail[i].x, trail[i].y);
         if (!stopped && trail[i].x == player.x && trail[i].y == player.y){
           game.reset();
         }
