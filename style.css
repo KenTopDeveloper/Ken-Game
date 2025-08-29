@@ -65,9 +65,9 @@ body {
   color: white;
   font-size: 50px;
   border-right: 10px solid #ccc;
-  border-bottom: 10px solid #ccc;
-  border-left: 10px solid #ddd;
-  border-top: 10px solid #eee;
+  border-bottom: 10px solid #ddd;
+  border-left: 10px solid #ccc;
+  border-top: 10px solid #ddd;
   display: inline-block;
   margin: 5px;
   transition: all .05s linear;
