@@ -196,7 +196,7 @@ var Snake = (function () {
       ctx.fillStyle = 'white';
       ctx.font = "bold small-caps 14px Helvetica";
       ctx.fillText("points: " + points, 320, 30);
-      ctx.fillText("top: " + points, 320, 48);
+      ctx.fillText("top: " + pointsMax, 320, 48);
 
       return reward;
     }
