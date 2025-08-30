@@ -190,7 +190,7 @@ var Snake = (function () {
       if(stopped) {
         ctx.fillStyle = 'rgba(250,250,250,0.8)';
         ctx.font = "small-caps bold 14px Helvetica";
-        ctx.fillText("Press arrow keys to start...", 20, 380);
+        ctx.fillText("Press arrow keys to start…", 20, 380);
       }
 
       ctx.fillStyle = 'white';
