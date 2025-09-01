@@ -172,7 +172,7 @@ var Snake = (function () {
         if(points > pointsMax) pointsMax = points;
         reward = 1;
         game.RandomFruit();
-        // make sure new fruit didn't spawn in snake tail
+        //make sure new fruit didn't spawn in snake tail
         while((function () {
           for(var i=0; i<trail.length; i++) {
             if (trail[i].x == fruit.x && trail[i].y == fruit.y) {
